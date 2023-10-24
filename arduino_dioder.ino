@@ -1,7 +1,12 @@
-// Inspired by IKEA DIODER LED Strip Light
-// Added brightness control and all controlled by a rotary.
-// No smooth and fast color change effects. Maybe in the next versions.
-// https://github.com/ricardomiguelcardoso/arduino_dioder.git
+/* 
+ *  Inspired by IKEA DIODER LED Strip Light
+ *  Added brightness.
+ *  Use Rotary encoder to select color, adjust brightness and turn on and off leds.
+ *  No smooth and fast color change effects. Maybe in the next versions.
+ *  Click: Toggle Brightness and Color Select.
+ *  Long Click: Toggle Leds ON and OFF.
+ *  https://github.com/ricardomiguelcardoso/arduino_dioder.git
+ */
 
 #include <FastLED.h>
 #include <Button2.h>
